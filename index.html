@@ -70,12 +70,12 @@
 							
 						</div>
 						<div class="row-fluid">
-							<div class="board ui-droppable" game="" ng-style="{width:pitch.width + 'px', height: pitch.height + 'px'}" background-image="/img/field.png" board="" style="width: 303px;height: 429px;background-image: url(&quot;/img/field.png&quot;);">
+							<div class="board ui-droppable" game="" ng-style="{width:pitch.width + 'px', height: pitch.height + 'px'}" background-image="{{ site.baseurl}}/img/field.png" board="" style="width: 303px;height: 429px;background-image: url(&quot;{{ site.baseurl}}/img/field.png&quot;);">
 								<div class="player ng-scope ui-draggable" ng-style="{top:player.y + 'px', left: player.x + 'px', width: player.width + 'px'}" ng-repeat="player in players" player="" style="top: 350px; left: 150px; width: 24px;">
 									<div id="draggable" class="ui-widget-content">
 										<p>Drag me around</p>
 									  </div>
-									<img ng-src="/img/No1.png" src="/img/No1.png">
+									<img ng-src="/img/No1.png" src="{{ site.baseurl}}/img/No1.png">
 									<input ng-model="player.name" class="ng-pristine ng-valid" style="left: -15.5px; width: 60px; color: rgb(255, 255, 255); font-family: Arial; font-size: 11px; font-style: normal; font-weight: 400;">
 								</div>
 							
