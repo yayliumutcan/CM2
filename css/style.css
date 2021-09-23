@@ -41,7 +41,7 @@ body{
 
 
 img.bg-image {
-  background-image: url("/img/bg2.jpg");
+  background-image: url("/CM2-Tactic/img/bg2.jpg");
   opacity: 50%;
   position: absolute;
   top:0px;
@@ -132,7 +132,7 @@ img.bg-image {
 }
 
 .banner{
-  background-image: url("/img/header.png");
+  background-image: url("/CM2-Tactic/img/header.png");
   content: "Hello World!";
   position: relative;
   right: 10px;
@@ -145,7 +145,7 @@ img.bg-image {
 }
 
 .shadow{
-  background-image: url("/img/shadow.png");
+  background-image: url("/CM2-Tactic/img/shadow.png");
   position: relative;
   overflow: hidden;
   top: 5px;
@@ -155,7 +155,7 @@ img.bg-image {
 }
 
 .button1{
-  background-image: url("/img/button2.png");
+  background-image: url("/CM2-Tactic/img/button2.png");
   position: relative;
   overflow: hidden;
   right: 10px;
@@ -167,7 +167,7 @@ img.bg-image {
 }
 
 .button2{
-  background-image: url("/img/button2.png");
+  background-image: url("/CM2-Tactic/img/button2.png");
   position: relative;
   overflow: hidden;
   right: 10px;
@@ -178,7 +178,7 @@ img.bg-image {
 }
 
 .button3{
-  background-image: url("/img/button3.png");
+  background-image: url("/CM2-Tactic/img/button3.png");
   position: relative;
   overflow: hidden;
   right: 10px;
@@ -191,7 +191,7 @@ img.bg-image {
 }
 
 .buttondone {
-  background-image: url("/img/buttondone.png");
+  background-image: url("/CM2-Tactic/img/buttondone.png");
   position: relative;
   overflow: hidden;
   width: 498px;
@@ -204,7 +204,7 @@ img.bg-image {
 }
 
 .buttonreset {
-  background-image: url("/img/buttonundo.png");
+  background-image: url("/CM2-Tactic/img/buttonundo.png");
   position: relative;
   overflow: hidden;
   top:-40px;
@@ -217,7 +217,7 @@ img.bg-image {
 }
 
 .tagstarter{
-  background-image: url("/img/tagstarter.png");
+  background-image: url("/CM2-Tactic/img/tagstarter.png");
   position: relative;
   overflow: hidden;
   left: 5px;
@@ -230,7 +230,7 @@ img.bg-image {
 }
 
 .tagsub{
-  background-image: url("/img/tagsub.png");
+  background-image: url("/CM2-Tactic/img/tagsub.png");
   position: relative;
   overflow: hidden;
   left: 5px;
