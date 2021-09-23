@@ -1,0 +1,315 @@
+@import url(//db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular);
+*{
+  margin:0;
+  padding:0;
+  font-weight:500;
+  font-family: "PixelarRegularW01-Regular", normal;
+}
+
+@font-face {font-family: "PixelarRegularW01-Regular"; src: url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.eot"); src: url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.woff") format("woff"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.svg#PixelarRegularW01-Regular") format("svg"); }
+
+*.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+    Introduced in Internet Explorer 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  --green: #004100;
+  --light: #004900;
+  --border: #007d00;
+  background-color: #111;
+
+}
+
+body{
+  height: 100%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+img.bg-image {
+  background-image: url("/img/bg2.jpg");
+  opacity: 50%;
+  position: absolute;
+  top:0px;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(4px);
+}
+
+.field{
+  position: absolute;
+
+}
+
+.row-fluid {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  *zoom: 1;
+}
+
+.row-fluid:before,
+.row-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row-fluid:after {
+  clear: both;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  zoom: 120%;
+}
+
+.container-fluid:before,
+.container-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container-fluid:after {
+  clear: both;
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.banner{
+  background-image: url("/img/header.png");
+  content: "Hello World!";
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 316px;
+  height: 50px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadow{
+  background-image: url("/img/shadow.png");
+  position: relative;
+  overflow: hidden;
+  top: 5px;
+  width: 316px;
+  height: 341px;
+  right:10px;
+}
+
+.button1{
+  background-image: url("/img/button2.png");
+  position: relative;
+  overflow: hidden;
+  right: 10px;
+  width: 106px;
+  height: 31px;
+  box-shadow: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button2{
+  background-image: url("/img/button2.png");
+  position: relative;
+  overflow: hidden;
+  right: 10px;
+  width: 106px;
+  height: 31px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button3{
+  background-image: url("/img/button3.png");
+  position: relative;
+  overflow: hidden;
+  right: 10px;
+  width: 106px;
+  height: 31px;
+  box-shadow: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.buttondone {
+  background-image: url("/img/buttondone.png");
+  position: relative;
+  overflow: hidden;
+  width: 498px;
+  height: 31px;
+  top:-40px;
+  right:6px;
+  box-shadow: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buttonreset {
+  background-image: url("/img/buttonundo.png");
+  position: relative;
+  overflow: hidden;
+  top:-40px;
+  right:6px;
+  width: 125px;
+  height: 31px;
+  box-shadow: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tagstarter{
+  background-image: url("/img/tagstarter.png");
+  position: relative;
+  overflow: hidden;
+  left: 5px;
+  top: 10px;
+  width: 25px;
+  height: 20px;
+  box-shadow: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tagsub{
+  background-image: url("/img/tagsub.png");
+  position: relative;
+  overflow: hidden;
+  left: 5px;
+  top: 10px;
+  width: 25px;
+  height: 20px;
+  box-shadow: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.board {
+  position: relative;
+  overflow: hidden;
+}
+
+.board .player {
+  position: absolute;
+}
+
+.board .player input {
+  position: absolute;
+  padding: 0;
+  margin: 0 auto;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  text-shadow: 3px 3px black;
+}
+
+.board .player no {
+  position: absolute;
+  padding: 0;
+  margin: 0 auto;
+  color: yellow;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  text-shadow: 3px 3px black;
+}
+
+.board .player .change {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+
+.board .player .delete {
+  position: absolute;
+  top: -20px;
+  right: -10px;
+}
+
+.border {
+  background-color: transparent;
+  top: -0.35%;
+  left: -0.5%;
+  border: 0.2vmin transparent var(--border);
+
+  box-shadow:
+    0 0 0 4vmin var(--green); 
+  /* And so on and so forth, if you want border-ception */
+  width: 64.8vmin;
+  height: 90.6vmin;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+

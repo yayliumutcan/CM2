@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <link href="//db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular" rel="stylesheet" type="text/css"/>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=yes"
+		/>
+		<link rel="icon" href="img/favicon.png" type="image/png" />
+		<title>CM2 Formation Builder</title>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="/resources/demos/style.css">
+		<style>
+		#draggable { width: 50px; height: 50px; padding: 0.1em; }
+		</style>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+			$( function() {
+		  $( "#draggable" ).draggable();
+		} );
+		</script>
+
+	
+	</head>
+
+	<body>
+		<div class="container">
+			<img class="bg-image"></div>
+
+		</div>
+			<div class="container-fluid">
+				
+					<div class="container">
+						<div class="row-fluid">
+							<div class="banner">
+								<div contenteditable="true" style="margin-top:8px; font-size: 30px; font-weight:900; color:white;">
+									CM2 Tactics
+								  </div>
+							</div>
+							<!--BUTTONS -->
+							<div class="container" style="right:10px;">
+								<div class="button1"></div>
+								<div class="button2"></div>
+								<div class="button3"></div>
+							</div>
+							<!--SHADOW -->
+							<div class="shadow">
+								<div class="tagstarter"></div> <!--1 -->
+								<div class="tagstarter"></div> <!--2 -->
+								<div class="tagstarter"></div> <!--3 -->
+								<div class="tagstarter"></div> <!--4 -->
+								<div class="tagstarter"></div> <!--5 -->
+								<div class="tagstarter"></div> <!--6 -->
+								<div class="tagstarter"></div> <!--7 -->
+								<div class="tagstarter"></div> <!--8 -->
+								<div class="tagstarter"></div> <!--9 -->
+								<div class="tagstarter"></div> <!--10 -->
+								<div class="tagstarter"></div> <!--11 -->
+								<div class="tagsub"></div>
+								<div class="tagsub"></div>
+								<div class="tagsub"></div>
+								<div class="tagsub"></div>
+								<div class="tagsub"></div>							
+							</div>
+							
+						</div>
+						<div class="row-fluid">
+							<div class="board ui-droppable" game="" ng-style="{width:pitch.width + 'px', height: pitch.height + 'px'}" background-image="/img/field.png" board="" style="width: 303px;height: 429px;background-image: url(&quot;/img/field.png&quot;);">
+								<div class="player ng-scope ui-draggable" ng-style="{top:player.y + 'px', left: player.x + 'px', width: player.width + 'px'}" ng-repeat="player in players" player="" style="top: 350px; left: 150px; width: 24px;">
+									<div id="draggable" class="ui-widget-content">
+										<p>Drag me around</p>
+									  </div>
+									<img ng-src="/img/No1.png" src="/img/No1.png">
+									<input ng-model="player.name" class="ng-pristine ng-valid" style="left: -15.5px; width: 60px; color: rgb(255, 255, 255); font-family: Arial; font-size: 11px; font-style: normal; font-weight: 400;">
+								</div>
+							
+							</div>
+						</div>
+						
+					</div>
+
+						
+
+
+					
+				
+			
+	
+	
+			</div>
+			<div class="container-fluid">
+				<div class="container">
+								
+					<div class="buttondone"></div>
+					<div class="buttonreset"></div>
+				</div>
+			</div>
+	
+		
+		
+		 
+	</body>
+</html>

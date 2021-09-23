@@ -1,0 +1,171 @@
+@import url(//db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular);
+*{
+  margin:0;
+  padding:0;
+  font-weight:500;
+  font-family: "PixelarRegularW01-Regular", normal;
+}
+
+@font-face {font-family: "PixelarRegularW01-Regular"; src: url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.eot"); src: url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.woff") format("woff"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b2e75c336df191233b3096682c9ee6be.svg#PixelarRegularW01-Regular") format("svg"); }
+
+*.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+    Introduced in Internet Explorer 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  --green: #004100;
+  --light: #004900;
+  --border: #007d00;
+  background: #111;
+}
+
+body {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64vmin;
+  height: 90vmin;
+  border: 2vmin solid var(--border);
+  background-image:
+    radial-gradient(circle at 0% 0%, transparent 1%, var(--border) 0 1.25%, transparent 0),
+    radial-gradient(circle at 100% 0%, transparent 1%, var(--border) 0 1.25%, transparent 0),
+     radial-gradient(circle at 0% 100%, transparent 1%, var(--border) 0 1.25%, transparent 0),
+    radial-gradient(circle at 100% 100%,
+transparent 1%, var(--border) 0 1.25%, transparent 0),
+    radial-gradient(circle at 50% 50%, var(--border) 0.4%, transparent 0),
+    radial-gradient(circle at 50% 50%, transparent 17%, var(--border) 0 17.40%, transparent 0),
+    radial-gradient(circle at 50% 16%, transparent 10%, var(--border) 0 10.25%, transparent 0),
+    radial-gradient(circle at 50% 84%, transparent 10%, var(--border) 0 10.25%, transparent 0),
+    linear-gradient(to top, transparent 49.90%, var(--border) 0 50.10%, transparent 0),
+    repeating-linear-gradient(to top, var(--light) 0 10%, var(--green) 0 20%);
+    
+}
+
+.border {
+  background-color: transparent;
+  top: -0.35%;
+  left: -0.5%;
+  border: 0.2vmin transparent var(--border);
+
+  box-shadow:
+    0 0 0 4vmin var(--green); 
+  /* And so on and so forth, if you want border-ception */
+  width: 64.8vmin;
+  height: 90.6vmin;
+  position: absolute;
+}
+
+
+
+body::before {
+  content:"";
+  display: block;
+  position: absolute;
+  
+  top: 96.1%;
+  left: 32.5%;
+  transform: translate(0, -50%);
+  width: 22vmin; 
+  height: 7vmin;
+  background:    var(--border);
+  box-shadow: 
+    inset 0 1vmin 2vmin 5vmin var(--light),
+    0vmin 0 0 0.25vmin var(--border),
+    -8.5vmin -10vmin 0 1vmin var(--green),
+    8.5vmin -10vmin 0 1vmin var(--green),
+    -8.5vmin -1vmin 0 1.05vmin var(--light),
+    8.5vmin -1vmin 0 1.05vmin var(--light),
+    -4vmin -5.5vmin 0 5.5vmin var(--light),
+    -4vmin -5.5vmin 0 5.75vmin var(--border),
+    4vmin -5.5vmin 0 5.5vmin var(--light),
+    4vmin -5.5vmin 0 5.75vmin var(--border),
+    0 -5.5vmin 0 5.5vmin var(--light),
+    0 -5.5vmin 0 5.75vmin var(--border), 
+    
+    0vmin -83vmin 0 0vmin var(--green),
+    0vmin -83vmin 0 0.25vmin var(--border),
+    -8.5vmin -73.05vmin 0 1vmin var(--light),
+    8.5vmin -73.05vmin 0 1vmin var(--light),
+    -8.5vmin -82vmin 0 1vmin var(--green),
+    8.5vmin -82vmin 0 1vmin var(--green),
+    -4vmin -77.5vmin 0 5.5vmin var(--light),
+    -4vmin -77.5vmin 0 5.75vmin var(--border),
+    4vmin -77.5vmin 0 5.5vmin var(--light),
+    4vmin -77.5vmin 0 5.75vmin var(--border),
+    0 -77.5vmin 0 5.5vmin var(--light),
+    0 -77.5vmin 0 5.75vmin var(--border) 
+}
+
+body::after {
+ content: "";
+  white-space: pre;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vmin;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  font-family: arial, verdana, sans-serif;
+  position: absolute;
+  border-radius: 50%;
+  height: 2.5vmin;
+  width: 2.5vmin;
+  left: 50%;
+  top: -7.5%;
+  transform: translate(-50%, -50%);
+  box-shadow:
+    0vmin 84.5vmin 0 -1vmin var(--border),
+    0vmin 19vmin 0 -1vmin var(--border)
+}
+
+
+
+.wrapper{
+  top:10%;
+  left:20%;
+  width: 10px;
+  background:transparent;
+  position: absolute;
+  padding:10px;
+  border-radius:5px;
+  transform: translate(-50%, -50%) scale(1.4);
+}
+
+.wrapper header{
+  color: #ff0;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0px;
+  align-self: center;
+  text-shadow: 1.5px 1.5px black;
+}
+
+
+.wrapper header.active{
+  cursor: move;
+  user-select: none;
+}
+
+.wrapper .content{
+  padding:-5px;
+}
+
+.content .title{
+  font-size:18px;
+  font-weight:500;
+  color:#fff;
+  margin: 10px;
+  text-shadow: 1.5px 1.5px black;
+}
+
